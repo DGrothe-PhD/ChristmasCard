@@ -38,12 +38,12 @@ span{
 #from {
     position: absolute;
     bottom: 0px;
-    font-size: 2.5rem;
+    font-size: 3em;
     color: red;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 
