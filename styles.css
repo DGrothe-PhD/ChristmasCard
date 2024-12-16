@@ -1,0 +1,49 @@
+body{
+    background: black;
+    text-align: center;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+    color: red;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+#merry{
+    color: green;
+    font-style: italic;
+}
+
+#merry::before{
+    content:url("christmas_hat.png");
+    position: absolute;
+    transform: scale(0.5) translate(-550px, -320px) rotate(-10deg);
+}
+
+span{
+    font-family: Verdana;
+    text-shadow: 1px 1px white;
+    font-weight: bold;
+}
+
+.sofia {
+    font-family: "Sofia", sans-serif;
+}
+
+#from {
+    position: absolute;
+    bottom: 0px;
+    font-size: 2.5rem;
+    color: red;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+
