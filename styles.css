@@ -14,7 +14,15 @@ body{
     z-index: 1000;
 }
 
-#merry{
+.berlin {
+    background-image: url('./Berlin_illuminated_locomotive_2016.jpg');
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    max-width: 1920px;
+}
+
+.merry, #merry{
     color: green;
     font-style: italic;
 }

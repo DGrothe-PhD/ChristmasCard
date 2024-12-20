@@ -5,10 +5,14 @@
 <link rel="stylesheet" href="styles.css">
 <script src="card.js"></script>
 
+<script type="text/javascript">
+var userLang = navigator.language || navigator.userLanguage; 
+</script>
+
 </head>
 
 <body>
-    <div id="flex-container">
+    <!--<div id="flex-container">
         <div id="greetingTopLine">
             <span>Have </span>
             <span class=".blankSpace"> </span>
@@ -23,8 +27,25 @@
             <span class=".blankSpace"> </span>
             <span>Christmas</span>
         </div>
+    </div>-->
+    <div id="flex-container" class="berlin">
+        <div id="greetingTopLine">
+            <span>&nbsp;&nbsp;Frohe </span>
+            <span class=".blankSpace"> </span>
+            <Span>Weihnachten</Span>
+            <span class=".blankSpace"> </span>
+            <span class="merry sofia">und einen</span>
+        </div>
+        <div id="greetingBottomLine">
+            <span id="merry" class="sofia">guten</span>
+            <span class=".blankSpace"> </span>
+            <Span>Rutsch ins</Span>
+            <span class=".blankSpace"> </span>
+            <span class="merry sofia">neue Jahr!</span>
+            <br>
+        </div>
     </div>
-    <div id="from"><span>From Vinay</span></div>
+    <div id="from"><span>Von Daniela</span></div>
 </body>
 </html>
 
